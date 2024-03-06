@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'graf';
+    src: url(fonts/nature_beauty/Nature\ Beauty\ Personal\ Use.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+}
+
+*{
+    margin: 0%;
+}
+
+header{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+header h1{
+    font-variant: small-caps;
+    font-size: 35px;
+}
+
+header h2{
+    font-size: 25px;
+}
+
+#link{
+    font-size: 18px;
+}
+
+a{
+    font-size: 16px;
+    color: yellow;
+}
+
+#link {
+    font-family: sans-serif;
+}
+
+section.text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+p{
+    font-family: 'graf';
+    font-size: 1.3em;
+}
+
+#img1{
+    background-image: url(pacote/imagens/background001.jpg);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+#img2{
+   background-image: url(pacote/imagens/background002.jpg);
+   background-position: 80% 20%;
+   background-attachment: fixed;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   padding-left: 30px;
+}
+
+section#img1 p{
+
+    color: whitesmoke;
+    padding: 10px;
+}
+
+section#img2 p{
+
+    color: whitesmoke;
+    padding: 10px;
+}
